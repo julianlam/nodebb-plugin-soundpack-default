@@ -1,0 +1,21 @@
+{
+  "name": "nodebb-plugin-soundpack-default",
+  "version": "0.0.0",
+  "description": "Default Sound Pack",
+  "repository": {
+    "type": "git",
+    "url": "github.com/julianlam/nodebb-plugin-soundpack-default"
+  },
+  "keywords": [
+    "nodebb",
+    "sound",
+    "sounds",
+    "soundpack"
+  ],
+  "author": "Julian Lam <julian@nodebb.org>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/julianlam/nodebb-plugin-soundpack-default/issues"
+  },
+  "homepage": "https://github.com/julianlam/nodebb-plugin-soundpack-default"
+}
