@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/julianlam/nodebb-plugin-soundpack-default/issues"
   },
-  "homepage": "https://github.com/julianlam/nodebb-plugin-soundpack-default"
+  "homepage": "https://github.com/julianlam/nodebb-plugin-soundpack-default",
+  "nbbpm": {
+    "compatibility": ">=0.5.0 <=0.7.0"
+  }
 }
