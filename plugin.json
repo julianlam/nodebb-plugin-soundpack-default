@@ -1,11 +1,13 @@
 {
 	"id": "nodebb-plugin-soundpack-default",
 	"name": "Default Sound Pack",
-	"description": "A bundled set of sounds for every NodeBB installation",
-	"url": "https://github.com/julianlam/nodebb-plugin-soundpack-default",
-	"library": "./library.js",
-	"hooks": [
-		{ "hook": "filter:sounds.get", "method": "get" }
-	],
-	"minver": "0.4.2"
+  "soundpack": {
+    "name": "Default",
+    "dir": "sounds",
+    "sounds": {
+      "Deedle-dum": "notification.mp3",
+      "Water drop (high)": "waterdrop-high.mp3",
+      "Water drop (low)": "waterdrop-low.mp3"
+    }
+  }
 }
