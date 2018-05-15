@@ -1,6 +1,6 @@
 {
   "name": "nodebb-plugin-soundpack-default",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "description": "Default Sound Pack",
   "repository": {
     "type": "git",
