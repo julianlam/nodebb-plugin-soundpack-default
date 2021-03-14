@@ -1,7 +1,3 @@
-
-{{{ if config.disableChat }}}
-    asdasdashdjakshdas
-{{{ end }}}
 <label for="notification">[[sounds:notification-sound]]</label>
 <div class="row">
     <div class="form-group col-xs-9">
