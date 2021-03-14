@@ -1,13 +1,16 @@
 {
-	"id": "nodebb-plugin-soundpack-default",
-	"name": "Default Sound Pack",
-  "soundpack": {
-    "name": "Default",
-    "dir": "sounds",
-    "sounds": {
-      "Deedle-dum": "notification.mp3",
-      "Water drop (high)": "waterdrop-high.mp3",
-      "Water drop (low)": "waterdrop-low.mp3"
-    }
-  }
+  "staticDirs": {
+		"assets": "./assets"
+	},
+  "scripts": [
+    "static/lib/sounds.js"
+  ],
+  "templates": "templates",
+  "languages": "languages",
+  "hooks": [
+    { "hook": "static:app.load", "method": "init" },
+    { "hook": "filter:config.get", "method": "filterConfigGet" },
+    { "hook": "filter:user.customSettings", "method": "filterUserCustomSettings" },
+    { "hook": "filter:user.saveSettings", "method": "filterUserSaveSettings" }
+  ]
 }

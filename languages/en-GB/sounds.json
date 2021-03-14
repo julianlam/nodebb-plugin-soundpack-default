@@ -1,0 +1,7 @@
+{
+    "sounds": "Sounds",
+    "notification-sound": "Notification Sound",
+    "incoming-message-sound": "Incoming Message Sound",
+    "outgoing-message-sound": "Outgoing Message Sound",
+    "no-sound": "No sound"
+}

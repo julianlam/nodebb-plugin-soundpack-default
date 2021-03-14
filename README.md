@@ -1,0 +1,1 @@
+A plugin that plays sounds on notifications & chats.
