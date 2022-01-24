@@ -1,6 +1,6 @@
 'use strict';
 
-/* globals window, document, $, socket, Audio, ajaxify, config */
+/* globals app, window, document, $, socket, Audio, ajaxify, config */
 $(document).ready(function () {
 	var cache = {};
 
@@ -8,8 +8,10 @@ $(document).ready(function () {
 		playAudio(config.notificationSound);
 	});
 
-	socket.on('event:chats.receive', function () {
-		playAudio(config.incomingChatSound);
+	socket.on('event:chats.receive', function (data) {
+		if (parseInt(data.fromUid, 10) !== parseInt(app.user.uid, 10)) {
+			playAudio(config.incomingChatSound);
+		}
 	});
 
 	$(window).on('action:chat.sent', function () {
