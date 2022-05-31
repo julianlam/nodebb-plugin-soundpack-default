@@ -34,7 +34,7 @@ $(document).ready(function () {
 			return;
 		}
 		var audio = cache[file] || new Audio(
-			config.relative_path + '/plugins/nodebb-plugin-soundpack-default/assets/sounds/' + file
+			config.relative_path + '/assets/plugins/nodebb-plugin-soundpack-default/assets/sounds/' + file
 		);
 		cache[file] = audio;
 		audio.pause();
