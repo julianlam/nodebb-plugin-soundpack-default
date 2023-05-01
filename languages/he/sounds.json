@@ -1,0 +1,7 @@
+{
+    "sounds": "צלילים",
+    "notification-sound": "צליל התראה",
+    "incoming-message-sound": "צליל הודעה נכנסת",
+    "outgoing-message-sound": "צליל הודעה יוצאת",
+    "no-sound": "ללא צליל"
+}
