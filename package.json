@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/julianlam/nodebb-plugin-soundpack-default",
   "nbbpm": {
-    "compatibility": "^1.16.0"
+    "compatibility": "^3.0.0"
   },
   "devDependencies": {
     "eslint": "7.22.0",

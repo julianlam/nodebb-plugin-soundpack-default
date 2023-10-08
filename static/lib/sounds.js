@@ -21,7 +21,7 @@ $(document).ready(function () {
 	$(window).on('action:ajaxify.end', function () {
 		if (ajaxify.data.template['account/settings']) {
 			$('.account').find('button[data-action="play"]').on('click', function () {
-				var soundName = $(this).parent().parent().find('select')
+				var soundName = $(this).parent().find('select')
 					.val();
 				playAudio(soundName);
 				return false;
